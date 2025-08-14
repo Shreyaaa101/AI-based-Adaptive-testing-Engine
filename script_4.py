@@ -1,4 +1,5 @@
-# 🧠 AI-Driven Adaptive Testing Platform
+# Create a comprehensive README.md file
+readme_content = '''# 🧠 AI-Driven Adaptive Testing Platform
 
 A sophisticated Streamlit-based application that creates personalized adaptive tests from PDF study materials using AI. The platform dynamically adjusts question difficulty based on user performance and provides detailed learning analytics.
 
@@ -60,7 +61,7 @@ A sophisticated Streamlit-based application that creates personalized adaptive t
    ```bash
    # Copy the example file
    cp .env.example .env
-
+   
    # Edit .env and add your OpenRouter API key:
    OR_API_KEY=your_actual_api_key_here
    ```
@@ -240,3 +241,9 @@ For issues or questions:
 ---
 
 **Happy Learning! 🎓**
+'''
+
+with open("README.md", "w") as f:
+    f.write(readme_content)
+
+print("Created comprehensive README.md")
